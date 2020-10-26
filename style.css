@@ -10,17 +10,29 @@
 
 .hero-container {
   background: #8CC63F;
-  height: 60vh;
+  height: 65vh;
   text-align: center;
 }
 
 .logo {
   display: inline-block;
+  padding: 25px 0;
+  width: 50%;
+}
+
+.logo img {
+  width: 240px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .hamburger-menu {
   display: inline-block;
-  float: right;
+}
+
+.dragon-graphic img {
+  width: 85%;
+  padding: 3.5em 0;
 }
 
 .menu-cats {
