@@ -14,8 +14,13 @@
   text-align: center;
 }
 
-.logo img{
+.logo {
+  display: inline-block;
+}
 
+.hamburger-menu {
+  display: inline-block;
+  float: right;
 }
 
 .menu-cats {
