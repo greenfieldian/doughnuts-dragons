@@ -99,7 +99,7 @@
     text-align: right;
     white-space: nowrap;
     font-family: "American Typewriter";
-    line-height: 40px;
+    line-height: 60px;
 }
 
 .filler {
@@ -113,7 +113,7 @@
 .label, .text {
   background: #728440;
   position: relative;
-  font-size: 24px;
+  font-size: 32px;
 }
 
 .label {
@@ -135,7 +135,7 @@
 }
 
 .where-text {
-  line-height: 40px;
+  line-height: 60px;
 }
 
 .where-text span {
