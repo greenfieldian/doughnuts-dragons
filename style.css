@@ -11,6 +11,11 @@
 .hero-container {
   background: #8CC63F;
   height: 60vh;
+  text-align: center;
+}
+
+.logo img{
+
 }
 
 .menu-cats {
@@ -59,7 +64,7 @@
 
 .business-information-container {
   background: #728440;
-  color: #ffffff;
+  color: #FFFDF5;
 }
 
 .when-container, .where-container{
@@ -120,4 +125,4 @@
 .where-text span {
   font-family: "American Typewriter";
   font-size: 12px;
-} 
+}
