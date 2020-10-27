@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "A Love of Thunder";
+    src: url(doughnuts-dragons/fonts/A Love of Thunder.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
