@@ -177,3 +177,7 @@ form input {
   font-size: 42px;
   margin-bottom: 0;
 }
+
+.instafeed {
+  max-height: 500px;
+}
