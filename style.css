@@ -1,10 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-
+  font-family: "American Typewriter";
 }
 
-h1 {
+h1,h2,h3,h4 {
   font-family: "A Love Of Thunder";
 }
 
@@ -181,3 +181,23 @@ form input {
 .instafeed {
   max-height: 500px;
 }
+
+/* Menu */
+.menu-container h1 {
+  color: #728440;
+  font-size: 84px;
+}
+
+.menu-container h3 {
+  color: #8CC63F;
+}
+
+.menu-container .label, .text {
+  background: #FFFDF5;
+  text-align: center;
+}
+
+.menu-container .filler {
+  border-bottom: 1px dashed #000;
+}
+/* Menu */
