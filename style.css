@@ -13,6 +13,11 @@ h1,h2,h3,h4 {
   font-family: "A Love Of Thunder";
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 input {
   display: block;
   text-align: center;
@@ -211,3 +216,22 @@ form input {
   border-bottom: 1px dashed #000;
 }
 /* Menu */
+
+/* Footer */
+.footer-element {
+  padding: 2.25rem 0;
+  font-size: 36px;
+}
+
+.footer-logo img {
+  width: 150px;
+}
+
+.footer-social-links img {
+  width: 60px;
+}
+
+.footer-links {
+  padding-bottom: 6.25rem;
+}
+/* Footer */
