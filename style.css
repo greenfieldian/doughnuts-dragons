@@ -187,6 +187,7 @@ form input {
 
 .submit {
   border: none;
+  background: none;
   font-family: "A Love Of Thunder";
   font-size: 42px;
   margin-bottom: 0;
