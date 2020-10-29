@@ -92,7 +92,7 @@ input {
 
 .wwa-text p {
   font-family: "American Typewriter";
-
+  font-size: 18px;
 }
 
 .business-information-container {
@@ -185,11 +185,14 @@ form input {
   color: #8CC63F;
 }
 
+.input-submit {
+  font-size: 36px;
+}
+
 .submit {
   border: none;
   background: none;
   font-family: "A Love Of Thunder";
-  font-size: 42px;
   margin-bottom: 0;
 }
 
