@@ -33,8 +33,8 @@
 }
 
 .category img {
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  max-height: 350px;
 }
 
 .wwa-text {
