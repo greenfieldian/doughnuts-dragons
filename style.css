@@ -28,6 +28,10 @@ input::placeholder {
   color: #8CC63F;
 }
 
+.header {
+  display: block;
+}
+
 .container {
   background: #FFFDF5;
   height: auto;
@@ -167,6 +171,36 @@ form input {
   font-size: 24px;
 }
 /* Homepage */
+
+/* Menu */
+.menu-listing {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+.drink-title {
+  font-weight: 600;
+}
+
+.menu-container {
+  color: #728440;
+  padding: 0 5%;
+}
+
+.menu-container h1 {
+  color: #728440;
+  padding: 10px 0;
+  font-size: 36px;
+}
+
+.menu-container h3 {
+  color: #8CC63F;
+  font-size: 24px;
+  padding: 5px 0;
+}
+
+/* Menu */
 
 /* Footer */
 .footer-element {
