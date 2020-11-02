@@ -52,6 +52,10 @@ input::placeholder {
   color: #8CC63F;
 }
 
+.double-space {
+  line-height: 40px;
+}
+
 .header {
   display: block;
 }
@@ -229,6 +233,7 @@ form input {
 /* Contact */
 .contact-container {
   color: #8CC63F;
+  padding: 0 2.5%;
 }
 
 .contact-container a {
@@ -252,6 +257,15 @@ form input {
 
 .contact-container h1 {
   color: #728440;
+}
+
+.contact-info-container {
+  padding: 20px 0;
+  padding-bottom: 20px;
+}
+
+.map {
+  padding-top: 50px;
 }
 /* Contact */
 
@@ -288,3 +302,105 @@ form input {
   color: #000 !important;
 }
 /* Footer */
+
+@media only screen and (min-width: 768px) {
+/* Homepage */
+.hero-container img {
+  max-width: 60%;
+}
+
+.wwa-text {
+  padding: 3.0rem 4rem;
+  line-height: 25px;
+}
+
+.graphic-container img {
+  width: 50%;
+}
+/* Homepage */
+}
+
+@media only screen and (min-width: 992px) {
+/* Homepage */
+.hero-container {
+  height: 100vh;
+}
+
+.hero-container img {
+  max-width: 40%;
+}
+
+.logo img {
+  max-width: 15% !important;
+  padding: 15px 0;
+}
+
+.menu-categories-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu-cats {
+  flex-basis: 45%;
+}
+
+.wwa-text {
+  padding: 3.0rem 20rem;
+}
+
+.business-information-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.when-container, .where-container{
+  padding: 10% 5%;
+}
+
+.hp-reservation {
+  margin: 0 30%;
+}
+
+.hp-reserv-header {
+  font-size: 18px;
+}
+
+form input {
+  width: 40%;
+}
+
+.submit {
+  font-size: 32px;
+}
+/* Homepage */
+
+/* Contact Page */
+.contact-content-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.contact-content {
+  flex-basis: 50%;
+}
+
+.contact-info {
+
+}
+
+.contact-content input,.contact-content textarea {
+  width: 80%;
+}
+
+.map iframe{
+  width: 100%;
+}
+/* Contact Page */
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+}
