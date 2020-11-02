@@ -56,6 +56,10 @@ input::placeholder {
   line-height: 40px;
 }
 
+.menu-graphic {
+  display: none;
+}
+
 .header {
   display: block;
 }
@@ -398,6 +402,29 @@ form input {
   width: 100%;
 }
 /* Contact Page */
+
+/* Menu */
+.menu-graphic {
+  display: block;
+  max-width: 50%;
+}
+.drink-menu-container, .doughnut-menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-container {
+  padding: 0;
+}
+
+.menu-container h1 {
+  font-size: 56px;
+}
+
+.drink-title {
+  text-align: left;
+}
+/* Menu */
 }
 
 
