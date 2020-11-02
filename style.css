@@ -255,6 +255,19 @@ form input {
 }
 /* Contact */
 
+/* Reservations */
+.reservations-container {
+  min-height: 100vh;
+}
+
+.reservation-container {
+  border: 3px solid #8CC63F;
+  border-radius: 40px;
+  margin: 0 10px;
+
+}
+/* Reservations */
+
 /* Footer */
 
 .footer-element {
