@@ -432,6 +432,25 @@ form input, form select {
 }
 /* Reservations */
 
+/* Games */
+.game-badges-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.complexity-graphics img {
+  width: 80%;
+}
+
+.badge-description {
+  display: none;
+}
+
+.badge-img img {
+  min-width: 50px;
+}
+/* Games */
+
 /* Footer */
 
 .footer-element {
