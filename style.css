@@ -30,6 +30,14 @@ input, select, option {
   padding-left: 10px;
 }
 
+select {
+  text-align-last: center;
+}
+
+option {
+  text-align: left;
+}
+
 textarea {
   margin : 0 auto;
   margin-bottom: 20px;
@@ -98,7 +106,7 @@ input::placeholder, select::placeholder {
 }
 
 .topnav nav{
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 8px;
     width:100%;
 }
@@ -142,7 +150,7 @@ input::placeholder, select::placeholder {
 }
 
 .icon {
-    display: none;
+    display: block;
     font-size: 32px;
     color: #000;
     text-decoration: none;
@@ -170,6 +178,7 @@ input::placeholder, select::placeholder {
       display :inline-block;
       position : absolute;
       right : 0;
+      padding-right: 3%;
     }
 
     .notlink {
