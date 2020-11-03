@@ -339,14 +339,23 @@ form input {
   padding: 15px 0;
 }
 
-.menu-categories-container {
+.menu-cats {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.menu-cats {
-  flex-basis: 45%;
+.category-link {
+  flex-basis: 50%;
+}
+
+.category img {
+  min-width: 350px;
+  min-height: 350px;
+}
+
+.game-menu-category {
+  flex-basis: 100%;
 }
 
 .wwa-text {
@@ -354,16 +363,25 @@ form input {
 }
 
 .business-information-container {
+  margin: 0 2.75%;
   display: flex;
   justify-content: space-around;
 }
 
+.graphic-container {
+  padding: 5% 5%;
+}
+
+.graphic-container img {
+  width: 100%;
+}
+
 .when-container, .where-container{
-  padding: 10% 5%;
+  padding: 5% 5%;
 }
 
 .hp-reservation {
-  margin: 0 30%;
+  margin: 0 25%;
 }
 
 .hp-reserv-header {
@@ -406,11 +424,16 @@ form input {
 /* Menu */
 .menu-graphic {
   display: block;
-  max-width: 50%;
+  max-width: 70%;
 }
 .drink-menu-container, .doughnut-menu-container {
   display: flex;
   justify-content: space-between;
+}
+
+.drink-menu,.doughnut-menu {
+  width: 400px;
+  padding-right: 10%;
 }
 
 .menu-container {
@@ -421,10 +444,23 @@ form input {
   font-size: 56px;
 }
 
+.menu-container h3 {
+  font-size: 36px;
+}
+
 .drink-title {
   text-align: left;
+  padding-bottom: 7.5px;
+}
+
+.listing {
+  padding: 20px 0;
 }
 /* Menu */
+
+/* Reservations */
+
+/* Reservations */
 }
 
 
