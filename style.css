@@ -152,7 +152,7 @@ input::placeholder, select::placeholder {
 .icon {
     display: block;
     font-size: 32px;
-    color: #000;
+    color: #000 !important;
     text-decoration: none;
     text-align: center;
     line-height: 40px;
@@ -226,6 +226,10 @@ input::placeholder, select::placeholder {
 
 .hero-container img {
   max-width: 80%;
+}
+
+.dragon-graphic {
+  padding-top: 5%;
 }
 
 .category {
