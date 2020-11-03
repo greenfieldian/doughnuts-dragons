@@ -8,22 +8,29 @@
   <link rel="icon" type="image/png" href="images/favicon.png" />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-</head>
 
 <body>
   <div class="container hero-container">
-    <nav>
+    <div class="topnav">
+      <nav>
+        <div class="myTopnav" id="myTopnav">
+          <a class="notlink" href="index.html"><img src="images/logo.png"></a>
+           <a href="javascript:void(0);" class="icon" onclick="topNav()">&#9776;</a>
+        </div>
+      </nav>
+    </div>
+    <!--<nav>
       <a href="/doughnuts-dragons">
         <div class="logo">
           <img src="images/logo.png" alt="">
-        </div>
-      </a>
-      <!--<div class="hamburger-menu">
-        <i class="fas fa-bars fa-5x"></i>
-      </div>-->
-      <div class="dragon-graphic">
-        <img src="images/DD_Profile-01 1.png" alt="">
-      </div>
+          <!--<div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+          </div>-->
+    <!--</div>-->
+    </a>
+    <div class="dragon-graphic">
+      <img src="images/DD_Profile-01 1.png" alt="">
+    </div>
     </nav>
   </div>
 
@@ -106,7 +113,8 @@
       <div class="hp-reserv-form">
         <form class="" action="index.html" method="post">
           <input type="text" name="" value="" placeholder="Name">
-          <select type="text" name="" value="" placeholder="How Many?">
+          <select type="text" name="" value="">
+            <option value="" disabled selected>How Many?</option>
             <option value="">1</option>
             <option value="">2</option>
             <option value="">3</option>
@@ -114,7 +122,11 @@
             <option value="">5+</option>
           </select>
           <input type="date" name="" value="" placeholder="Date & Time?">
-          <input type="text" name="" value="" placeholder="Which Room?">
+          <select type="text" name="" value="" placeholder="Select">
+            <option value="">Room 1</option>
+            <option value="">Room 2</option>
+            <option value="">Main Room</option>
+          </select>
 
           <div class="input-submit">
             <input type="submit" name="" value="Submit" class="submit">
