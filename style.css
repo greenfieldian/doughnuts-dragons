@@ -183,6 +183,7 @@ input::placeholder, select::placeholder {
 .hero-container {
   background: #8CC63F;
   height: 65vh;
+  overflow-y: hidden;
 }
 
 .logo img {
@@ -468,7 +469,7 @@ form input, form select {
 
 @media only screen and (min-width: 768px) {
 /* Homepage */
-.hero-container img {
+.dragon-graphic img {
   max-width: 60%;
 }
 
@@ -489,12 +490,18 @@ form input, form select {
   height: 100vh;
 }
 
-.hero-container img {
+.topNav {
+  padding: 1%;
+  height: 150px;
+  box-sizing: border-box;
+}
+
+.dragon-graphic img {
   max-width: 40%;
 }
 
 .logo img {
-  max-width: 15% !important;
+  max-width: 50% !important;
   padding: 15px 0;
 }
 
