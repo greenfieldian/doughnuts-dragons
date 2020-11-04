@@ -369,7 +369,7 @@ form input, form select {
   border: 2px solid #8CC63F;
 }
 
-.contact-container button {
+.contact-container .contact-content button {
   min-width: 200px;
   height: 60px;
   border-radius: 20px;
