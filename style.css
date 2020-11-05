@@ -354,6 +354,10 @@ form input, form select {
   padding: 7px 0;
 }
 
+.listing {
+  padding: 10px 0;
+}
+
 /* Menu */
 
 /* Contact */
@@ -392,6 +396,8 @@ form input, form select {
 
 .map {
   padding-top: 50px;
+  height: 100%;
+  width: 100px;
 }
 /* Contact */
 
@@ -580,10 +586,6 @@ form input, form select {
 
 .contact-content input,.contact-content textarea {
   width: 80%;
-}
-
-.map iframe{
-  width: 100%;
 }
 /* Contact Page */
 
