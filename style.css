@@ -66,6 +66,11 @@ input::placeholder, select::placeholder {
   color: #8CC63F;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
 .double-space {
   line-height: 40px;
 }
@@ -429,18 +434,70 @@ form input, form select {
 /* Reservations */
 
 /* Games */
-.game-badges-container {
-  display: flex;
-  flex-wrap: wrap;
+.game-badge-container {
+  display: none;
+}
+
+.games-container {
+  color: #728440;
+}
+
+.games-header img {
+  display: none;
+}
+
+.games-container th {
+  font-weight: 400;
+  padding: 3% 5%;
+  line-height: 30px;
+}
+
+.games-container h1 {
+  color: #728440;
+  font-size: 36px;
+}
+
+.games-container h3 {
+  color: #8CC63F;
+  font-size: 24px;
 }
 
 .game-badge {
-  flex-basis: 50%;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
   padding: 5% 0;
-  height: 100px;
 }
+
+.badge-img {
+  flex-basis: 20%;
+}
+
+.badge-title {
+  flex-basis: 80%;
+}
+
+.complexity-container {
+  padding: 5% 0;
+}
+
+.complexity-key {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.arrow {
+  font-size: 60px;
+  line-height: 20px;
+}
+
 .complexity-graphics img {
   width: 80%;
+}
+
+.complexity-text {
+  padding: 10px 20px;
 }
 
 .badge-description {
@@ -449,6 +506,78 @@ form input, form select {
 
 .badge-img img {
   min-width: 50px;
+}
+
+.games-container .game-description, .games-container .game-mechanics {
+  display: none;
+}
+
+.game-menu {
+  padding: 0 5%;
+}
+
+.classic-games h1 {
+  color: #FFFDF5;
+  background: #8CC63F;
+  padding: 3% 0;
+}
+
+.coop-games h1 {
+  background: #00AEEF;
+  color: #000;
+  padding: 3% 0;
+}
+
+.gem-games h1 {
+  background: #F6B01D;
+  color: #000;
+  padding: 3% 0;
+}
+
+.party-games h1 {
+  background: #A06DAE;
+  color: #000;
+  padding: 3% 0;
+}
+
+.staple-games h1 {
+  background-color: #D2232A;
+  color: #000;
+  padding: 3% 0;
+}
+
+.twoplayer-games h1 {
+  background: #A8AAAD;
+  color: #000;
+  padding: 3% 0;
+}
+
+.classic-games tr {
+  border-bottom: 1px solid #8CC63F;
+}
+
+.coop-games tr {
+  border-bottom: 1px solid #00AEEF;
+}
+
+.gem-games tr {
+  border-bottom: 1px solid #F6B01D;
+}
+
+.party-games tr {
+  border-bottom: 1px solid #A06DAE;
+}
+
+.staple-games tr {
+  border-bottom: 1px solid #D2232A;
+}
+
+.twoplayer-games tr {
+  border-bottom: 1px solid #A8AAAD;
+}
+
+tr:last-child {
+  border: none;
 }
 /* Games */
 
@@ -488,6 +617,43 @@ form input, form select {
   width: 50%;
 }
 /* Homepage */
+
+/* Games */
+.complexity-text {
+  padding: 10px 15%;
+}
+
+.complexity-graphics img {
+  width: 60%;
+}
+
+.game-badges-container {
+  padding: 5% 5%;
+}
+
+.game-badge {
+  padding: 2% 0;
+  height: auto;
+  font-size: 14px;
+  position: relative;
+}
+
+.badge-img {
+  flex-basis: 10%;
+}
+
+.badge-title {
+  display: inline-block;
+  flex-basis: 12.5%;
+  flex-wrap: wrap;
+}
+
+.badge-description {
+  display: block;
+  flex-basis: 70%;
+  text-align: left;
+}
+/* Games */
 }
 
 @media only screen and (min-width: 992px) {
@@ -650,6 +816,31 @@ form input, form select {
   padding-bottom: 10%;
 }
 /* Reservations */
+
+/* Games */
+.complexity-text {
+  padding: 10px 25%;
+  line-height: 30px;
+}
+
+.complexity-graphics img {
+  width: 45%;
+}
+
+.game-badge {
+  padding: 0% 0;
+}
+
+.games-container .game-description, .games-container .game-mechanics {
+  display: block;
+  min-width: 50%;
+  padding: 3% 5%
+}
+
+.game-description {
+
+}
+/* Games */
 }
 
 
