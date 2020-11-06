@@ -18,10 +18,11 @@
       <button class="ham"></button>
       <nav class="navbar">
         <ul>
-          <li><a class="menuLink" href="#">Home</a></li>
-          <li><a class="menuLink" href="#">Profile</a></li>
-          <li><a class="menuLink" href="#">About</a></li>
-          <li><a class="menuLink" href="#">Contacts</a></li>
+          <li><a class="menuLink" href="index.html">Home</a></li>
+          <li><a class="menuLink" href="about.html">About</a></li>
+          <li><a class="menuLink" href="menu.html">Menu</a></li>
+          <li><a class="menuLink" href="reservations.html">Reservations</a></li>
+          <li><a class="menuLink" href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -30,11 +31,12 @@
     <!-- Games Header -->
     <div class="games-header">
       <h1>Games</h1>
+      <img src="images/green game@3x 1.png" alt="">
     </div>
     <!-- Games Header -->
 
     <!-- Complexity Scale -->
-    <div class="">
+    <div class="complexity-container">
       <div class="complexity-header">
         <h3>Our Complexity Scale</h3>
       </div>
@@ -50,14 +52,18 @@
           <img src="images/complexity-graphic.png" alt="">
         </div>
         <div class="complexity-key">
-
+          <p class="key-element">Easy Peasy!</p>
+          <!--<div class="arrow key-element">
+            &#10142;
+          </div>-->
+          <p class="key-element">What Year is it?</p>
         </div>
       </div>
     </div>
     <!-- Complexity Scale -->
 
     <!-- Game Mechanics Badges -->
-    <div class="">
+    <div class="game-badge-container">
       <div class="badges-header">
         <h3>Game Mechanics Badges</h3>
       </div>
@@ -66,7 +72,7 @@
           <div class="badge-img">
             <img src="images/area-control.png" alt="">
           </div>
-          <div class="">
+          <div class="badge-title">
             <p>Area Control</p>
           </div>
           <div class="badge-description">
@@ -78,7 +84,7 @@
           <div class="badge-img">
             <img src="images/dice-rolling.png" alt="">
           </div>
-          <div class="">
+          <div class="badge-title">
             <p>Dice Rolling</p>
           </div>
           <div class="badge-description">
@@ -90,7 +96,7 @@
           <div class="badge-img">
             <img src="images/hand-management.png" alt="">
           </div>
-          <div class="">
+          <div class="badge-title">
             <p>Hand Management</p>
           </div>
           <div class="badge-description">
@@ -102,7 +108,7 @@
           <div class="badge-img">
             <img src="images/player-elim.png" alt="">
           </div>
-          <div class="">
+          <div class="badge-title">
             <p>Player Elimination</p>
           </div>
           <div class="badge-description">
@@ -114,7 +120,7 @@
           <div class="badge-img">
             <img src="images/drafting.png" alt="">
           </div>
-          <div class="">
+          <div class="badge-title">
             <p>Drafting</p>
           </div>
           <div class="badge-description">
@@ -126,7 +132,7 @@
           <div class="badge-img">
             <img src="images/set-collection.png" alt="">
           </div>
-          <div class="">
+          <div class="badge-title">
             <p>Set Collection</p>
           </div>
           <div class="badge-description">
@@ -138,7 +144,7 @@
           <div class="badge-img">
             <img src="images/tile-placement.png" alt="">
           </div>
-          <div class="">
+          <div class="badge-title">
             <p>Tile Placement</p>
           </div>
           <div class="badge-description">
@@ -150,7 +156,7 @@
           <div class="badge-img">
             <img src="images/pickup-deliver.png" alt="">
           </div>
-          <div class="">
+          <div class="badge-title">
             <p>Pickup and Deliver</p>
           </div>
           <div class="badge-description">
@@ -162,7 +168,7 @@
           <div class="badge-img">
             <img src="images/bidding.png" alt="">
           </div>
-          <div class="">
+          <div class="badge-title">
             <p>Bidding/Wagering</p>
           </div>
           <div class="badge-description">
@@ -174,7 +180,7 @@
           <div class="badge-img">
             <img src="images/deduction.png" alt="">
           </div>
-          <div class="">
+          <div class="badge-title">
             <p>Deduction</p>
           </div>
           <div class="badge-description">
@@ -186,7 +192,7 @@
           <div class="badge-img">
             <img src="images/deckbuilding.png" alt="">
           </div>
-          <div class="">
+          <div class="badge-title">
             <p>Deckbuilding</p>
           </div>
           <div class="badge-description">
@@ -195,32 +201,1110 @@
         </div>
       </div>
     </div>
-  <!-- Game Mechanics Badges -->
+    <!-- Game Mechanics Badges -->
 
-  <!-- Game Menu -->
-  <div class="">
-    <div class="header">
-      <h1>Classic Games</h1>
+    <!-- Game Menu -->
+    <div class="game-menu">
+      <div class="classic-games">
+        <div class="header">
+          <h1>Classic Games</h1>
+        </div>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th class="game-description">Desc.</th>
+            <th>Players</th>
+            <th>Difficulty</th>
+            <th class="game-mechanics">Mech.</th>
+          </tr>
+          <tr>
+            <th>Bananagrams</th>
+            <th class="game-description">Spell your way to being crowned Top Banana! Grab your tiles from the bunch and flip them face up when you hear split! Use your tiles to form words in a grid: up, down, left, and right. When you’re out of
+              tiles, yell peel! and everyone grabs a new tile from the bunch. You can get rid of a tile you don’t like by calling for a dump! and replacing it with three fresh tiles. When the bunch wanes, be the first player to complete your grid
+              without any mistakes and yell bananas! to win!</th>
+            <th>1-8</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Blokus</th>
+            <th class="game-description">Get ready to combine your blocks on the board for maximum points. You start with a wide variety of different shaped blocks, each worth points based on its size. Start with your first piece placed in a corner
+              of the board and place subsequent pieces with only the corners touching your previous pieces. As you and other players place your pieces onto the board, things will get a bit cramped and you must be creative to use up as many blocks as
+              you can before the board is full!</th>
+            <th>2-4</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Boggle</th>
+            <th class="game-description">Click-clack click-clack click-clack.. go! You have three minutes to form as many words as you can using the letters shown in the four by four grid. Earn points based on the number of words you form, with
+              longer words worth more points. Highest point total wins, ho yeah!</th>
+            <th>1-8</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Candy Land</th>
+            <th class="game-description">Playing Candy Land is remarkably similar to eating real candy - children love it, and it’s objectively bad for you. Take turns drawing a card and moving forward to the nearest space matching the color on the
+              card drawn. You win by reaching the end of the board, or when nobody else wants to play anymore. Some say it’s possible for a game of Candy Land to continue indefinitely; what a fate that would be.</th>
+            <th>2-4</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Chutes and Ladders</th>
+            <th class="game-description">Gather your friends and prepare to race from square 1 to square 100. Take turns rolling the die and moving that many squares. Sometimes you’ll land on a square with a ladder, letting you climb up to a higher
+              square closer to the finish line. Sometimes you’ll land on a square with a chute, causing you to slide down to a square further from the finish line (ah chute!). The luckiest player wins!</th>
+            <th>2-6</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Clue</th>
+            <th class="game-description">A murder mystery at a dinner party? Good thing all the attendees are detectives! Play as one of six guests trying to determine who the murderer is, where they did it, and what they used. Spend your turns
+              slowly narrowing down the options and trying to pick up on hints during the other players’ turns. When you think you’ve figured it out, fire off your guess. If you’re right, congratulations! But if you guess wrong you’re out of the
+              game, so make sure to have all of your facts straight before you go accusing people. The first person to guess correctly is the winner!</th>
+            <th>3-6</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Cranium</th>
+            <th class="game-description">Form teams and prepare for this mental quadrathlon! You and your team will travel to the end of the board answering questions from four different categories along the way. The four categories each test a
+              different area of the brain: acting, drawing and sculpting, wordsmithing, and general trivia. The first team to reach the end of the board and answer a final question from each category is the winner!</th>
+            <th>4-16</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Jenga</th>
+            <th class="game-description">That’s a nice tower you’ve got there, it’d be a shame if a bunch of hooligans took turns vandalizing it. Wooden blocks are stacked high in rows of three. Everyone takes turns carefully pulling out one block at
+              a time until the tower falls. If you pull out the block that tumbles the tower you lose!</th>
+            <th>1-8</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Life</th>
+            <th class="game-description">Is your life too stressful? Take this classic for a spin. Choose a pink or blue person, put them into whichever color car you like, and face it left or right at the Start. Then just take turns spinning the
+              spinner and moving that many spaces, and the game of Life will take care of the rest. Seriously, just spin until everyone reaches the end of the board and crown a winner by counting all your money, just like the real thing!</th>
+            <th>2-6</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Monopoly</th>
+            <th class="game-description">Live the American Dream as you travel around the board collecting hand-outs, pur-chasing affordable land, and charging exorbitant rent to tenants who set foot on your property. Rip off your competitors,
+              monopolize public services, do a quick stint in jail, and remember: it doesn’t matter what you have, you only win when everyone else is bankrupt!</th>
+            <th>2-8</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Operation</th>
+            <th class="game-description">Doctors report to surgery! It’s time to save old Cavity Sam. Take turns using tweezers to extract all kinds of weird stuff from this guy’s gut. Be careful not to tear him up too much while you’re in there, or
+              his nose might light up and buzz. Become the best doctor by pulling out more things than anyone else!</th>
+            <th>1-6</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Pictionary</th>
+            <th class="game-description">Pencils down! You have a limited amount of time to draw a picture that will prompt a member of your team to guess a specific word just by looking at it. Speed and accu-racy reward points in this head to head
+              drawing and guessing game. Play until one team reaches a predetermined amount of points and takes the crown!</th>
+            <th>3-16</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Oqirkle</th>
+            <th class="game-description">Qwirkle is a tile laying game, similar to Dominoes but more abstract. Each player begins with six tiles; the face of each tile shows a colored shape. The starting player places two blocks with a single
+              matching attribute. Each subsequent player must place a tile adjacent to an existing tile, matching, without duplicates, the color or shape of the tiles with which it is in line. Earn a point for each tile played and each tile adjacent
+              to a played tile. Complete a row of six different shapes or colors and earn an extra 6 points! The game ends when there are no more tiles to draw from.</th>
+            <th>2-4</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Risk</th>
+            <th class="game-description">Let the global conquest begin! Each territory on the map will be assigned to a player during setup. After surveying your starting territories, you must choose where to de-ploy your troops. When all the troops
+              are deployed, it’s time for the dice rolling! The outcome of each skirmish is decided by a roll of the dice. Roll higher than the person attacking you and watch their grip on the world crumble. The game ends when the luckiest player
+              controls all territories.</th>
+            <th>2-6</th>
+            <th><img src="images/class-complexity.png" alt=""><img src="images/class-complexity.png" alt=""><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Scattergories</th>
+            <th class="game-description">Scattergories is a fast-paced party game where the most obvious answer is rarely the best. Select a list of categories for your group to use, roll a 20-sided letter die, and start the three-minute timer - for
+              each category on the list, come up with an item that fits that category and begins with the letter rolled. Try not to come up with the same answer as someone else - if multiple players have the same answer for a category, that answer
+              doesn’t count!</th>
+            <th>2-6</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Scrabble</th>
+            <th class="game-description">A classic for the word nerds! You will be dealt a handful of tiles that each contain a let-ter and a point value. Each turn, you will use your tiles to spell out words on the board positioned left to right or
+              top to bottom. Your tiles may make use of other tiles already formed into words on the board. Earn points for the words you form each round. Play until all of the tiles are depleted or everyone gives up, the highest score is the winner!
+            </th>
+            <th>2-4</th>
+            <th><img src="images/class-complexity.png" alt=""><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Sorry</th>
+            <th class="game-description">Time to learn who your real friends are. You and your friends each choose a color and take turns drawing a card and moving one of your four pawns accordingly. The goal is to be the first person to move all of
+              your pawns completely around the board. It isn’t just about who draws the best movement cards. Some cards allow you to move another player’s pawns, and landing one of your pawns on another pawn sends that one back to start, sorry!</th>
+            <th>2-4</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Trivial Pursuit</th>
+            <th class="game-description">It’s the ultimate battle to determine the Master of Minutiae! Compete with your friends to answer general trivia questions from an array of categories. The first player to correctly answer a question from all
+              six categories is the winner!</th>
+            <th>2-6</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Uno</th>
+            <th class="game-description">Tearing families apart since 1971, Uno gives you the simple task of being the first per-son to play out all the cards in your hand. In clockwise order, you may play one card a turn that matches either the
+              color or cardface of the top card in the stack. If none of the cards in your hand meet these requirements, you must pick up cards instead! Some cards can be unpleasant for the players on your right and left, causing them to draw
+              additional cards or lose their turn. Remember to shout “UNO” when you’re down to one card and smirk at the entire table.</th>
+            <th>2-10</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Wits and Wagers</th>
+            <th class="game-description">Trivia for degenerates! You will answer a trivia question with a numerical answer alongside all other players. Each person’s answer is revealed simultaneously and laid out on the board in numerical order.
+              Next, before revealing the correct answer, players place bets on the answer they believe is closest without going over. The correct an-swer is revealed and bets are paid. Gamble well and you can win this game without ever answering a
+              single question correctly!</th>
+            <th>3-7</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Yahtzee</th>
+            <th class="game-description">The classic 5-die dice game! Roll the dice up to three times, keeping any dice you don’t wish to reroll, and attempting to make one of 13 dice combinations, thus scoring for that category. You want to try to
+              score each category, but that’s not always possi-ble...the game ends when each category has scored - either points, or a zero.</th>
+            <th>2-10</th>
+            <th><img src="images/class-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+        </table>
+      </div>
+
+      <div class="coop-games">
+        <div class="header">
+          <h1>Cooperative Games</h1>
+        </div>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th class="game-description">Desc.</th>
+            <th>Players</th>
+            <th>Difficulty</th>
+            <th class="game-mechanics">Mech.</th>
+          </tr>
+          <tr>
+            <th>Dead Men Tell No Tales</th>
+            <th class="game-description">Every Pirate knows the ships with the best booty are the ones on fire and full of the living dead. Grab your pistol, sharpen your cutlass, and ready your crew for pillaging! You and your friends must work
+              together to extract as much treasure from the burning ship as you can before the whole thing goes down in a fiery explosion. Battle your way through the ship fighting skeletons, drinking grog, and grabbing anything not tied down.</th>
+            <th>2-5</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Direwild</th>
+            <th class="game-description">Gather your team of animists and venture into the wild. Each player will choose a character and begin with a base deck of animal summoning spells. As your party journeys through the adventure, your decks will
+              be upgraded with greater summon-ing spells to defeat the monsters as you make your way to the final boss. With each new foe, you must get creative and combine the strengths of your summoned beasts to overpower your enemies. Your team
+              wins when you are able to defeat the final boss of each adventure!</th>
+            <th>2-4</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Forbidden Desert</th>
+            <th class="game-description">After your helicopter crashed in the desert, it seemed like it was all over. A limited water supply, sandstorms, and no transportation certainly spelled doom. That is until someone in your group found the
+              remains of an ancient ship beneath the sands that could carry you to safety! Now you must work together to scour the desert for the ship’s four parts and escape with everyone alive before the desert takes you all.</th>
+            <th>2-5</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Forbidden Island</th>
+            <th class="game-description">Calling all treasure hunters! Assemble your team by assigning roles to each player and heading to the uncharted Forbidden Island. You must work together combining your unique strengths to gather all four
+              priceless treasures. As you hunt for the trea-sures, the island itself begins to sink. Can you collect all the treasures and escape before the island sends you and the treasure to the bottom of the sea?</th>
+            <th>2-4</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Forbidden Sky</th>
+            <th class="game-description">Just when your rocketship project was wrapping up, a massive storm appears threat-ening not only the rocket, but everyone’s life as well! You and your fellow scientists have only one option: power the rocket.
+              You must work together to harness the power of the storm with lightning rods: wiring them to capacitors and connecting it all to the rocket to fly to safety before the sky tears everything asunder.</th>
+            <th>2-5</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Hanabi</th>
+            <th class="game-description">Get ready to light up the sky! You and your friends must work together to create a marvelous fireworks display. Each person will draw a hand of cards and holds them backwards so that only the other players can
+              see them. Cards are numbered one through five and are one of five different colors. Each player takes their turn by either playing a card, discarding an unwanted card, or sharing information with another player about the cards in that
+              player’s hand. Played cards must be in ascending order and grouped by color. If you would play a card that doesn’t fit into the current display on the board, that card is discarded and a Fuse counter is burned up. When all three
+              sections of the fuse have been burned, the game ends and the group’s display is scored!</th>
+            <th>2-5</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Kitchen Rush</th>
+            <th class="game-description">Congratulations, you’ve inherited a bustling restaurant! Assign your hourglass-work-ers to buy ingredients, take orders, prepare and serve items and clean your dishes, ensuring enough money is being made to
+              cover your costs and turn a profit. Be mind-ful of your assignments - everything takes time, and time is limited!</th>
+            <th>1-4</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Magic Maze</th>
+            <th class="game-description">An elf, a wizard, a dwarf, and a barbarian walk into a shopping mall… and steal everything not tied down! You and your friends must work together to guide this adventuring party through a maze-like mall,
+              shoplift the magical goods each char-acter wants, and then get them to an exit before time runs out! Each player may move any of the characters, but can only move them in a single way. And there’s no talking allowed!</th>
+            <th>1-8</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Mysterium</th>
+            <th class="game-description">A murder mystery for the whole group to solve! One person will take on the role of a ghost, the all knowing deceased that is unable to talk for the entirety of the game. Everyone else will play as a psychic
+              investigator trying to solve the murder by figur-ing out who it was, where it happened, and what the weapon was. The ghost must guide the psychics to the correct answer by handing them abstract dream cards each round. It’s up to the
+              psychics to interpret the dreams they receive and work together to solve the case!</th>
+            <th>2-7</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Now Boarding</th>
+            <th class="game-description">Work together with your friends to operate a fleet of airplanes. Deliver your passen-gers to their destinations before they get too upset, and upgrade your planes to in-crease their passenger capacity or speed
+              - you’re going to need to with all of the passengers constantly arriving! You and your friends all take turns simultaneously, so there’s no waiting while that one friend decides what to do (in fact, you only have 30 seconds to take your
+              collective turn, so you better decide fast!)</th>
+            <th>2-5</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Pandemic</th>
+            <th class="game-description">A deadly disease threatens to eliminate all life on Earth, and only you and your friends can save the day! Everyone takes on a specialized role which will bring unique strengths to the group. Working together,
+              you must find and distribute a cure before the outbreak becomes a pandemic and all life is lost.</th>
+            <th>2-4</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Spaceteam</th>
+            <th class="game-description">ship. Solve critical malfunctions, fly through wormholes, and even rescue your friends from space as you race to bring systems back online. With coordination, a handful of tools, and a little help from the
+              magical space cricket, you may even make it back to Earth!</th>
+            <th>3-6</th>
+            <th><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Spirit Island</th>
+            <th class="game-description">Colonists are invading your unsettled island home, and it’s up to you and your fellow spirits to stop them! Take on the role of a nature spirit and work together with the other players to push back the
+              colonists as they ravage the land and build structures upon it. Each spirit has a unique playstyle, so take care when choosing your team and look for subtle synergies. Stop the invasion of your island to win!</th>
+            <th>1-4</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Tiny Epic Defenders</th>
+            <th class="game-description">Heroes from across the land have united under a single banner in Capital City, but the peace and prosperity is threatened by monster attacks from beyond the outer regions! You and the other champions must band
+              together to defend the city and defeat the evil embargo. Choose a character and outfit them with legendary equipment. If a region falls, the monsters will have a direct route into the capital, and if the capital falls, you lose! Defeat
+              the enemy boss to win and secure the safety of Capital City!</th>
+            <th>1-4</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Zombicide</th>
+            <th class="game-description">Find weapons, kill zombies. The more zombies you kill, the more skilled you become. The more skilled you become, the more zombies appear! You and your teammates play as survivors of a zombie apocalypse. Each
+              character has unique special abilities, and each scenario has a set of objectives...complete them all and you may live to see another day!</th>
+            <th>1-6</th>
+            <th><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""><img src="images/coop-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+        </table>
+      </div>
+
+      <div class="gem-games">
+        <div class="header">
+          <h1>Gem Games</h1>
+        </div>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th class="game-description">Desc.</th>
+            <th>Players</th>
+            <th>Difficulty</th>
+            <th class="game-mechanics">Mech.</th>
+          </tr>
+          <tr>
+            <th>Architects of the West Kingdom</th>
+            <th class="game-description">Medieval city planners wanted! As an architect of the West Kingdom, it is up to you to contribute to the construction of the King’s lands. Manage your laborers, hire appren-tices, and balance your income and
+              virtue to earn the most points toward the King’s favor. You win if you have the most points after the final round and are crowned the top architect!</th>
+            <th>1-5</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Blood Rage</th>
+            <th class="game-description">For the glory of Odin! Take up one of four unique viking clans and prepare for con-quest. You will play through three ages earning glory from a variety of actions such as invading territories, pillaging
+              villages, sailing into fjords, and dying in glorious battle. The player with the most victory points after three rounds is the winner, to battle!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Bunny Kingdom</th>
+            <th class="game-description">Don’t be fooled by the adorable title: there’s far more to Bunny Kingdom than cute im-agery of medieval rabbits (though there is plenty of that as well)! The name of the game is area control as you try to earn
+              the most points from the fief you develop. The game is played in rounds that consist of two parts. First all players draft cards to gain territories, upgrades, treasures, and more. Then bunnies and upgrades are deployed to the fief and
+              points are scored. The fief with the highest score after four rounds is the winner!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Captain Sonar</th>
+            <th class="game-description">All crews board your vessels and prepare to submerge! Form your team and pre-pare to face off in an undersea skirmish. Two teams of two to four divide the roles of captain, first mate, engineer, and radio
+              operator among the players and begin navigating their submarine in search of the other team. Each role is responsible for a portion of the task ranging from steering the ship and firing missiles to listening in on the other team to try
+              and track their location via radio. Find and sink the enemy sub first to win!</th>
+            <th>2-8</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Cat Lady</th>
+            <th class="game-description">We all have a little cat lady in us. How could you not be drawn to such majestic beasts? Prove to the table that you’re the top cat lady by earning the most points in this cat drafting card game. Cards are
+              presented in a three by three grid and you must draft a single row or column each turn. In the trio of cards you pick up, you may find cats, food for cats, toys for cats, costumes for cats, or other cat paraphernalia. Make sure not to
+              leave any of your cats unfed or they’ll scratch up your score at the end. The most pampered cat squad wins!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Clank</th>
+            <th class="game-description">Suit up and get ready to go on an underground treasure hunt! Each player will receive a set of starting cards as their deck, and you’ll add more cards to it through-out the game. Venture deep below the castle
+              and pick up valuable treasures to take back to the surface. Battle through minions for additional loot. Don’t make too much noise though, or you might rouse the dragon sleeping within the depths. Earn the most points from treasure to
+              win!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Colt Express</th>
+            <th class="game-description">Boy howdy, grab your pistols and get ready to stick up a train! Take on the role of a bandit in the wild west and set out to rob your way to riches. Place your cowboy onto the train and start planning your
+              route. Cards determine movement and actions, and everyone plays their cards face down before any are resolved. Steal the most money off the train to win!</th>
+            <th>2-6</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Cosmic Encounter</th>
+            <th class="game-description">A space battle for the ages! You set out for the stars with the humble goal of col-onizing the other players’ planets. Colonizers aren’t usually a welcome sight, so you’ll have to be packing some serious heat
+              in your spaceships. Negotiating deals and alliances with other players will help you to establish yourself throughout the galaxy. The first players to colonize five planets win!</th>
+            <th>3-5</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Crypt</th>
+            <th class="game-description">Get ready for some grave robbing! The collectors of the world seek the priceless treasures long sealed away. Gather your workers in the form of dice and begin ex-cavating. Only a few treasures are available at
+              any given time, so you must send your workers out to compete against the other players for dibs by placing your dice showing any number on the treasures. The higher numbers will have higher priority, but also an increased chance of
+              wearing out that worker. The player with the most valuable treasure after everything is dug up is the winner!</th>
+            <th>1-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Cryptid</th>
+            <th class="game-description">Monster hunters wanted. You and each other player are given a clue about the lo-cation of a mythical monster. You’ll spend your turns speculating on whether specific spaces on the board could be the monster’s
+              lair. The other players will use informa-tion from their clue to support or dismiss your speculation and mark that space on the map accordingly. When a space is supported by all players’ clues, the monster’s home has been found and the
+              identifying player wins!</th>
+            <th>3-5</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Deep Sea Adventure</th>
+            <th class="game-description">Prepare to dive down to the bottom of the sea in search of treasure. You will take turns rolling dice and moving that many spaces below the depths picking up any treasures you’d like along the way. Each
+              treasure you carry will slow you down and tire you out. The oxygen is stored collectively for all players on the submarine, and a round ends when all of the oxygen is depleted. If you made it back on board before this happens, then you
+              get to keep any treasures you carried back! If you don’t make it back in time, all treasures you were carrying sink to the bottom. Treasures are scored after three rounds and the player with the most points is the winner!</th>
+            <th>2-6</th>
+            <th><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Dice Forge</th>
+            <th class="game-description">The gods are holding an epic contest in which the winner will gifted godhood! Armed with two mystical dice, you must conquer nine rounds of challenges and come out ahead to ascend. As you progress through the
+              game collecting gold and completing quests, you must upgrade the faces of your dice to gain a strategic edge over the other players. Only one will claim a seat on Mount Olympus!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Dice Throne: Season One</th>
+            <th class="game-description">Prepare to take the throne in an all out brawl. Choose one of six unique characters and get ready for battle. Each turn you will draw cards from your character’s deck and roll your distinct combat dice. Dice
+              may be rolled up to three times with a chance to set aside the results you like between rolls. The combination that you roll deter-mines which signature move your hero will perform each turn. Harder combinations to achieve pack a bigger
+              punch. Use cards to influence your rolls or interfere with your opponents. Last player left standing is the winner!</th>
+            <th>2-6</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Fabled Fruit</th>
+            <th class="game-description">Friends of the forest gather to collect a myriad of fruits to be used in the creation of the legendary Fabled Fruit Juices. Choose an animal to play as and draw a starting hand from the fruit deck. Each turn
+              your animal will visit a different area of the forest to visit and complete a distinct activity that will reward fruits. Fruits can then be used to craft juices, and each location has a unique juice recipe. Be the first player to craft
+              a predetermined number of juices to win the day!</th>
+            <th>2-5</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Hardback</th>
+            <th class="game-description">A deck-building word game, Hardback puts you in the shoes of an aspiring 19th cen-tury novelist, eager to write your next masterpiece. Specialize in unique genres to gain special abilities and earn bonus
+              points, and spend ink tokens to press your luck and gain extra letters - but make sure there’s still a word to spell! Be the first player to earn 60 points, completing your masterpiece, and be recognized as the finest novelist of the
+              age!</th>
+            <th>1-5</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Herbaceous</th>
+            <th class="game-description">Let’s get growing! Each player receives a set of four containers to pot their herbs in: various jars, pots, and growing boxes. Each player will also receive a marker to indi-cate their personal garden space.
+              On your turn you will draw two new herbs adding one to your garden and one to the community garden. You also have the opportunity to pick herbs and pot them into one of your containers, but each container can only be filled once per
+              game, so timing is critical! After all containers are full or the herbs run out the game ends and the highest score wins!</th>
+            <th>1-4</th>
+            <th><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Kodama</th>
+            <th class="game-description">The tree spirits, known as Kodama, call the forest home. As their caretaker, you need to keep the trees healthy and flourishing for your little friends! To do so, you’ll cultivate trees with the right mix of
+              insects, flowers, mushrooms, and branch arrangements in order to make your Kodama happiest. The winner is the player who best cares for their Kodama over three seasons!</th>
+            <th>2-5</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Menu Masters</th>
+            <th class="game-description">Don your chef coat and head into the kitchen! You will compete against opposing players’ restaurants to prepare the most complete menu with the best ingredients. Manage your staff carefully each turn, deciding
+              what to buy and where to shop for the best prices and variety. The game ends when someone completes three courses and then dishes are scored based on the quality of the ingredients!</th>
+            <th>2-5</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Mixtape Massacre</th>
+            <th class="game-description">Is there a more likely place for a string of murders than a small town in the 80s? Wel-come to Tall Oaks where you’ll take on the role of a distinct character straight out of a horror movie. Travel the town
+              jamming out to cassettes and gutting victims. Collect trophies off your victims for your trouble. Spill the most blood over the course of the game to be crowned the winner!</th>
+            <th>2-6</th>
+            <th><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Photo-synthesis</th>
+            <th class="game-description">Grab your seeds and saplings and head into the forest! You will spend the game culti-vating your trees through their natural life cycle. Plant carefully, as you will earn Light points based on your trees’
+              position relative to the sun. Soaking up the most sun fuels growth, allowing you to spend your Light points on new trees or growing existing ones. When a tree reaches the end of its life, it returns to the soil and you earn victory
+              points! After three rounds, the player with the most points is the winner!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Reef</th>
+            <th class="game-description">Undersea architects and marine biologists: get ready to compete in a contest of coral cultivation! You will start with a basic ocean floor plot and build out a colorful coral reef over the course of the game.
+              Each turn you will either draw a card or play a card. Playing a card provides you with new coral to add to your reef and earns you points for the progress you’ve made on your reef. When the supply of any of the corals runs dry, the game
+              comes to a close and the highest score wins!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Rise of Tribes</th>
+            <th class="game-description">Make an early mark on the world by taking on the role of a prehistoric tribe and guiding them through the early stages of history. You will spend each turn growing, moving, gathering with, or leading your
+              tribe within the world. As you bolster your numbers and explore, you will acquire resources and goals for your people. Spend resources to complete goals and found villages planting the seeds of civilization and earning victory points.
+              The first player to reach fifteen victory points wins the game!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Sagrada</th>
+            <th class="game-description">Artists have gathered from around the world competing to have their stained glass work included in the Sagrada Família. Do you have the skills to leave a mark on the historic cathedral? Your canvas begins as
+              an empty window pattern card with distinct slots for different colors and values of dice. Over ten rounds, players will take turns drafting beautifully colored dice and placing them within their window. Dice must be placed adjacently
+              and may not share colors or face values with other dice above, below, or to the left or right. Earn points for patterns and completion of your stained glass. The player with the most points wins!</th>
+            <th>1-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Santorini</th>
+            <th class="game-description">Visit the Greek island of Santorini and prepare for a battle of wits blessed by the gods. You will start by championing a god which will provide a unique bonus to your game-play. Each player places two workers
+              on the board and play begins. Move workers one space each turn and place a building on an adjacent space. If a building already exists, build another story onto it instead. When a building is three stories tall and a player moves a
+              worker on top of it, that player wins!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Sea of Clouds</th>
+            <th class="game-description">Avast, this be a treasure hunt for the ages! Set sail and prepare to collect a variety of rare artifacts and rums from around the world. Cards will be placed in three piles face-down, and on your turn you will
+              look at the first pile and may either take it or add an-other facedown card to it and move on to the next pile. Will you settle for something good when something great could be waiting in the next pile? In addition to treasures, you may
+              encounter pirates ready to join your crew. Bolster your crew to increase your odds in the three battles that will take place over the course of the game. After three battles have occurred the player with the highest score wins!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Smartphone Inc</th>
+            <th class="game-description">You are the head of a tech company competing for global dominance in the smart-phone industry! Over the course of six years represented by rounds, you will set busi-ness plans, invest in research and
+              development, patent new technologies in areas such as wifi and battery life, and set prices on your phones to compete around the world. Dominate the market with the most points to win!</th>
+            <th>1-5</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Space Base</th>
+            <th class="game-description">Assemble your fleet! Start with a fleet of twelve spaceships. Each ship occupies a hangar numbered 1-12, and on your turn you will roll two six sided dice and work your ships based on the result. Earn
+              spacebucks by working your ships, and spend them on upgrading ships or building space bases for points. Create the best fleet to spread your bases and earn forty points first to win!</th>
+            <th>2-5</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>That's Pretty Clever</th>
+            <th class="game-description">Pass out the scorecards, roll some colorful dice, and write down your score, pass the dice to the next player: rinse and repeat. The highest score wins! Sounds simple enough, but what if all the colors scored
+              points a little differently and the scorecards were laden with tiny achievements that rewarded bonus points? Well, you’d have to get a little clever to come out on top. Roll well and plan better to take down this dynamic roll and write
+              game!</th>
+            <th>1-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>The Grimm Forest</th>
+            <th class="game-description">The Big Bad Wolf wasn’t the only monster interested in trashing the homes of the Three Little Pigs. Take on the role of a long lost relative to original pigs and build out some houses that can withstand the
+              huffing and puffing of the monsters in the forest. Spend your early turns gathering straw, wood, and brick with which to build homes on your plot within the forest. Recruit friends from a variety of fairy tales to help you along the
+              way. If you’re the first pig to complete three houses you win!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>The Quacks of Quedlinburg</th>
+            <th class="game-description">Dust off your cauldrons, it’s time to brew! The game is played over nine rounds in which you will perfect your potion recipe. Each round you and the other quacks will cook up a masterpiece by pulling
+              ingredients out of your reagent bag at random and tossing them into the cauldron. You can stop adding ingredients at any time, but only the most lavish brew may roll the bonus die for a reward each round. Should you accidentally combine
+              the wrong ingredients and cause the contents of your cauldron to explode, you will not be eligible to roll the bonus die that round. After nine rounds, the quack with the most victory points from brewing is the winner!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Villainous</th>
+            <th class="game-description">Time to rewrite some Disney classics. You take on the role of an iconic villain and must work to complete their evil goal before the other villains at the table. It’s easier said than done though, as each
+              villain will find a whole heap of heroes hoping to halt their schemes. Each villain has a unique goal in mind, but they share their disgust for the goody two shoes of the world.</th>
+            <th>2-6</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Villainy</th>
+            <th class="game-description">Take on the roll of a fledgling supervillain as you try to make a name for yourself in the big city! Hire henchmen, commit crimes, and go to work as your alter ego as you race to be the first villain to
+              complete three evil plans. But watch out, Fantastiman isn’t going to let you terrorize the city without a fight - you’ll have to defeat him too if you’re going to become the most feared supervillain ever known!</th>
+            <th>2-4</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Western Legends</th>
+            <th class="game-description">Yeehaw!! Grab yer cowboy hat and make for the nearest trail out west! Take on the role of a legend from the Old West and compete against other players for victory points. Points are earned in a variety of
+              activities related to your wealth, reputation, and revelry. Just like the real Wild Wild West, there ain’t no traditional path. Play how-ever you’d like, but be ready for a shootout with the sheriff should you stick your nose where it
+              don’t belong!</th>
+            <th>2-6</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Wingspan</th>
+            <th class="game-description">Bird enthusiasts unite! You are opening your own personal aviary to house a wide variety of birds across three habitats: forests, plains, and wetlands. On each of your turns you’ll choose an action such as
+              collecting food for your birds, looking for eggs your birds have laid, or attracting new birds to your aviary. After everyone has taken eight turns, aviaries are scored and the person with the most points wins!</th>
+            <th>1-5</th>
+            <th><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""><img src="images/gem-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+        </table>
+      </div>
+
+      <div class="party-games">
+        <div class="header">
+          <h1>Party Games</h1>
+        </div>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th class="game-description">Desc.</th>
+            <th>Players</th>
+            <th>Difficulty</th>
+            <th class="game-mechanics">Mech.</th>
+          </tr>
+          <tr>
+            <th>Anomia</th>
+            <th class="game-description">Get ready to flip cards and think fast. On each of their turns, players will flip the top card of the deck face up onto their card pile. The card will have a category and a symbol on it. Play progresses
+              clockwise until two players have cards that share a symbol. As soon as this happens, it’s up to those players to say a word that fits into the category of the other person’s card. If you are first to name something that fits the
+              category you may take that player’s card and place it face down to remove it from the game and show how many points you have.</th>
+            <th>3-6</th>
+            <th><img src="images/party-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Apples to Apples</th>
+            <th class="game-description">Like Cards Against Humanity, but a less raunchy, more modest game.</th>
+            <th>4-10</th>
+            <th><img src="images/party-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Bang! The Dice Game</th>
+            <th class="game-description">It’s the rootinest tootinest tussle in the wild west! Each player will be secretly assigned a role from among sheriff, deputy, and outlaw. Only the sheriff reveals their identity, and it’s up to everyone else
+              to figure out who is who while the bullets are flying. Keep yourself alive and shoot out the right people to win!</th>
+            <th>3-8</th>
+            <th><img src="images/party-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Cards Against Humanity</th>
+            <th class="game-description">“A party game for horrible people”Each round, a player reads aloud a question on a black card. Everyone else submits a white card in answer, and the reader picks their favorite. Probably not the best game for
+              children, but what do we know.</th>
+            <th>4-12</th>
+            <th><img src="images/party-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Cash 'N Guns'</th>
+            <th class="game-description">The part you never see at the end of a heist: divvying up the loot! You and the other gangsters have scored a big haul, but how will you split it? Each round, all the money is put in the middle of the table
+              and guns are drawn simultaneously. Secretly load your weapon with a bullet or blank and point it at another player. Players then decide whether they want to dive down or risk their lives for a cut of the money. Live to see the end of
+              the game while making the most money to win!</th>
+            <th>4-8</th>
+            <th><img src="images/party-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Codenames</th>
+            <th class="game-description">Two enemy spymasters know the identities of 25 field agents, known to teammates only by their codenames. Spymasters take turns giving one-word clues that may help to identify one or more agents on the board,
+              while teammates attempt to iden-tify all of their agents before the other team. Don’t identify the other team’s agents, and whatever you do, don’t identify the assassin.</th>
+            <th>2-8</th>
+            <th><img src="images/party-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Happy Salmon</th>
+            <th class="game-description">Fist bumps, high fives, and happy salmons! Get ready for all that and more as you swim through your deck completing action cards with another person at the table. Yell loud and slap proud as you make your way
+              through your deck. Be the first player to get through the entire deck and you win!</th>
+            <th>3-6</th>
+            <th><img src="images/party-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Say Anything</th>
+            <th class="game-description">How well do you know your friends? Each round someone will read a generalized opinion question, what is the best ___, for example. Each other player will then write the answer they believe the reading player
+              will agree with. The reading player secret-ly chooses the answer they prefer and the writing players will bet chips on what they believe the winning answer is before the chosen answer is revealed. Earn points when your answers are
+              chosen, when others bet on your answers, and when you win bets. The highest score wins!</th>
+            <th>3-8</th>
+            <th><img src="images/party-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Secret Hitler</th>
+            <th class="game-description">Set in Germany in the 1930’s, players operate secretly as either liberals or fascists, with one fascist playing as Secret Hitler. Each round the players elect a President and a Chancellor responsible for
+              enacting new policies. The fascists must work together to sow distrust and advance their agenda, while the liberal majority must deduce the identity of the Secret Hitler and stop the fascists before the government is taken over!</th>
+            <th>5-10</th>
+            <th><img src="images/party-complexity.png" alt=""><img src="images/party-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Taboo</th>
+            <th class="game-description">Give verbal clues to get your teammates to guess as many keywords as possible in one minute, but take care not to use any of the taboo words - if one of your opponents catches you, you’re out of luck! Includes
+              an antagonistic buzzer for extra delight.</th>
+            <th>4-10</th>
+            <th><img src="images/party-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Telestrations</th>
+            <th class="game-description">It’s the game of Telephone with drawing instead of whispers. Everyone sits in a circle and starts with a prompt, a pad, and a marker. You start by drawing your prompt and then pass your whole pad to the person
+              next to you. Next, you must guess what the person who passed to you was trying to draw. You pass the pad along, but now it’s time to draw again: you will draw a picture using the person’s guess as your new prompt. Once each pad
+              completely circles the table, flip through and observe how your original prompt was interpreted and changed from person to person!</th>
+            <th>4-8</th>
+            <th><img src="images/party-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Werewolf</th>
+            <th class="game-description">Are you a werewolf? Players are assigned a role at random and play the game in two phases: Night and Day. Different roles may take different actions at night such as skulking around or simply sleeping. During
+              the day, everyone is awake and must vote on a player to be killed off (because that’s the only way to solve a werewolf infestation). Who you want to die depends on your role, and if you can coerce the will of the people, you might just
+              win!</th>
+            <th>8-24</th>
+            <th><img src="images/party-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+        </table>
+      </div>
+
+      <div class="staple-games">
+        <div class="header">
+          <h1>Staple Games</h1>
+        </div>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th class="game-description">Desc.</th>
+            <th>Players</th>
+            <th>Difficulty</th>
+            <th class="game-mechanics">Mech.</th>
+          </tr>
+          <tr>
+            <th>7 Wonders</th>
+            <th class="game-description">You’re responsible for the construction of one of the Seven Wonders of the Ancient World, but first your society will have to develop the structures, resources, military, and wealth to support it! Each player
+              is dealt 7 cards, from which they pick one to keep; the remainder are passed to the next player. Expanding your empire and completing your wonder award you victory points - the player with the most after 3 rounds wins!</th>
+            <th>2-7</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Betrayal at the House on the Hill</th>
+            <th class="game-description">A big spooky house atop a creepy old hill is just begging to be explored. You and your friends friends each pick a character and enter the house to see what it’s hiding. The house has three floors to explore
+              with something new lurking behind every door. As you delve deeper into the house, you might get the feeling that something isn’t quite right. One amongst you doesn’t have the group’s best interest at heart. When the traitor is revealed,
+              the dynamic shifts and it’s up to the survivors to stop the traitor or die trying.</th>
+            <th>3-6</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Carcassonne</th>
+            <th class="game-description">Travel back to medieval France to the city of Carcassonne and collectively create the landscape around it. You will begin with a single tile in the middle of the board and a handful of meeples. Each player
+              adds a new tile on their turn adding to the overall board. Throughout the game, you will deploy your meeples to various locations to specialize them. A meeple placed in a city will become a knight for instance. Special-ized meeples
+              allow you to score points, so you must place them strategically. When the last tile is placed, scores are totaled and the highest earner wins!</th>
+            <th>2-5</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Dominion</th>
+            <th class="game-description">Play as a monarch of a small kingdom intent on expanding your influence and do-minion. Construct buildings, improve your castle, hire help, and fill your coffers with gold as you race against opposing monarchs
+              to acquire land. The ruler with the larg-est kingdom wins!</th>
+            <th>2-4</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Evolution</th>
+            <th class="game-description">Food is scarce, and predators lurk near the watering hole...species will need to adapt to survive. In Evolution, you’ll take control of a species (or several!) as you attempt to grow your population(s) and
+              consume as much food as possible. Give your creatures horns, the ability to climb, good eyesight, or a multitude of other traits as you try to evade predators and thrive. Or, become a predator, and attack your fellow players - the
+              ecosystem is constantly changing, and species that don’t evolve may go extinct!</th>
+            <th>2-6</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Fireball Island</th>
+            <th class="game-description">Set a course for Fireball Island, an uncharted volcanic island filled to the brim with riches! You and your friends fly in on a helicopter with hopes of sightseeing and trea-sure hunting. As you explore the
+              island, you get the feeling that something isn’t quite right here. The volcano is sentient, and Vul-Kar doesn’t exactly appreciate guests. Grab as much treasure as you can while dodging flying fireballs, avoiding traps, and taking
+              pictures of everything (for Instagram ofc). Make it back on the helicopter with the most treasure to win before everything goes up in flames!</th>
+            <th>2-4</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Five Tribes</th>
+            <th class="game-description">Travel to the legendary city of Nagala on a quest to unite the five tribes! The viziers, elders, merchants, builders, and assassins are dispersed far and wide, and each will reward you differently for help
+              reuniting them. Enlist the help of mystical djinns along the way to gain an even greater advantage. If you have the most money at the end of the game, you’re the winner!</th>
+            <th>2-4</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Gloom</th>
+            <th class="game-description">Gather ‘round the table, it’s time to tell a tragic tale. In the beginning, each player will begin with a family of five characters and a hand full of cards. The cards in your hand build a character’s
+              narrative: some are positive and add to their happiness score while others are negative and reduce their happiness. Your goal is have the saddest family, so playing negative cards on your own characters and positive cards on other
+              player’s characters is key. Rarer cards will cause an untimely death. The game ends when some-one’s entire family has died. Whoever told the story of the saddest family is the winner!</th>
+            <th>2-5</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>King of Tokyo</th>
+            <th class="game-description">Take on the role of a giant monster vying for control of Tokyo! Choose a monster to play as, then spend your turns collecting victory points, specializing your monster with upgrade powers, and battling the
+              other monsters. If your monster falls to 0 hit points, you are eliminated! Be the first player to earn 20 victory points (or the last player remaining in the game) to win!</th>
+            <th>2-6</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Lords of Waterdeep</th>
+            <th class="game-description">Take on the role of one of the secret rulers of Waterdeep! You must employ a variety of tactics to gain the most influence over the city and earn victory points as a result. Direct your agents and recruit
+              adventurers for quests to spread your clout. The player with the greatest number of points after eight rounds wins!</th>
+            <th>2-5</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Love Letter</th>
+            <th class="game-description">Can you win the princess’ heart and take her hand in marriage? A card game with a sixteen card deck containing only eight different cards pits players against each other competing for affection tokens. You
+              earn these tokens by being the last player stand-ing at the end of each round. With a small range of possible cards, you must deduce what cards the other players are holding in order to leverage your own cards and win!</th>
+            <th>2-4</th>
+            <th><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Machi Koro</th>
+            <th class="game-description">Have you ever dreamed of being elected Mayor of a tiny village in Japan and taking office with the goal of growing it into a sprawling metropolis? Machi Koro is just that. Each player builds their city however
+              they’d like choosing from a variety of possi-ble construction projects from across different industries. As your city grows, so will revenue which will allow you to build more buildings or invest in the construction of landmarks. The
+              first player to complete all four landmarks is the winner!</th>
+            <th>2-4</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Munchkin</th>
+            <th class="game-description">Alright adventurers, it’s time for another dungeon! Hope you didn’t come here to make friends. You and the other adventurers begin at level one with minimal skills and gear. Kick down doors one by one to
+              advance to higher levels, earning a level for each monster you kill from behind the door. Use cards to hone your hero, providing weapons, skills, and more. If you reach level ten first, you are the winner. Make sure you’re first by
+              sabotaging anyone who might beat you there!</th>
+            <th>3-6</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Red Dragon Inn</th>
+            <th class="game-description">After a long day of adventuring, heroes need some time to unwind. The Red Drag-on Inn is the premier location for drinking and gambling after a deep dungeon dive. Select a hero, shuffle up your deck, and deal
+              out the drinks. Be the richest player left standing when the dust settles to win!</th>
+            <th>2-4</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Robo Rally</th>
+            <th class="game-description">Polish up your robots and head off to the arena for the Robo Rally! Build out a custom track using any of the dual faced boards and place checkpoints anywhere within the play space. Each player chooses a
+              distinct robot and places it at the starting line. Draw cards from your robot’s deck and then order them facedown to program the movements and actions of the turn. Once everyone locks in, resolve the programmed robots simultaneously and
+              watch chaos ensue as each robot attempts to make their way through all the checkpoints in the correct order. Purchase upgrades for your ro-bot each round to further enable you to push and shoot your adversaries out of the way. If your
+              robot can navigate through every checkpoint in the correct order you are the winner!</th>
+            <th>2-6</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Settlers of Catan</th>
+            <th class="game-description">Set sail for Catan! You and your friends are settlers making your home on the unset-tled Island of Catan. As you begin to build settlements and work the land, it quickly becomes apparent that you will have to
+              trade with the other settlers in order to get all of the resources you need to expand your civilization. Make good deals and grow your settlements to cities and beyond. Reach ten victory points first to win!</th>
+            <th>3-6</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Sheriff of Knottingham</th>
+            <th class="game-description">Gather your goods and hit the road for Nottingham, the greatest market in the king-dom! There’s been some trouble with smuggling lately, so the sheriff will be keeping watch. Each turn one player will take on
+              the role of the sheriff while the others sculpt their hands and fill their bags with the goods they plan to sell. After your bag is sub-mitted, you must tell the sheriff what you’ve brought in today. It’s up to the sheriff if you get by
+              without a search. Should they choose to search, you may negotiate a bribe or beam as they discover you were telling the truth the whole time. The player with the most money after everyone has been the Sheriff twice is the winner!</th>
+            <th>3-5</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Smallworld</th>
+            <th class="game-description">Champion a race and get ready to take over the world! Smallworld is home to an array of fantasy races augmented with a randomized trait. On your first turn, you will choose a race from the available pool and
+              set out into the world conquering territo-ries and earning gold for doing so. As turns go by and your army begins to feel a bit thin, retire them and recruit a new race to join your cause. Play lasts a set number of turns and the player
+              with the most gold at the end wins!</th>
+            <th>2-5</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Splendor</th>
+            <th class="game-description">As a merchant of the Renaissance, you’re not satisfied with wealth alone - you crave prestige! Collect gems and trade them for mines, shops, means of transportation, and buildings, represented by development
+              cards. Development cards provide a perma-nent boost to your wealth, making it easier to purchase other development cards; some of them even grant you prestige. Own enough development cards, and you just may receive a visit from a noble,
+              earning more prestige in the process. Reach 15 prestige points before your opponents to be crowned the most powerful merchant of the era!</th>
+            <th>2-4</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Sushi Go!</th>
+            <th class="game-description">You and your friends are at a sushi restaurant, and you’re trying to take the best com-bination of dishes as they fly by. Players are dealt a hand of cards from which they’ll take one and pass the rest. Earn
+              points by completing full sets of sashimi or collecting the most sushi rolls. Make sure to plan for the end of your meal by taking pudding too!</th>
+            <th>2-5</th>
+            <th><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Takenoko</th>
+            <th class="game-description">Gardeners wanted: zen experience a plus! In Takenoko, players take turns tending the Emperor of Japan’s personal bamboo garden. On each turn, you will roll a die to determine the weather for the day and then
+              complete tasks in the garden as you choose. These tasks involve planting new bamboo plots, tending to already grow-ing plots, or even feeding the emperor’s pet panda. What you do is guided by cards drawn throughout the game. Cards
+              reward points based on how difficult the task was to complete. The game ends when a player reaches the threshold for completed cards and the winner is the player with the highest point total!</th>
+            <th>2-4</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Ticket to Ride</th>
+            <th class="game-description">The epitome of a modern classic and winner of almost a dozen international awards, Ticket to Ride’s rules “are simple enough to write on a train ticket.” Players collect cards of various colors and spend them
+              to claim North American railway routes; lon-ger routes earn more points. Points are also earned by completing destination tickets and by having the longest continuous train. Simple enough, but the need to balance greed and fear of
+              missing out make this a strategic and rewarding title.</th>
+            <th>2-5</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Tokaido</th>
+            <th class="game-description">Put on your comfiest shoes, it’s time to walk the Tokaido road. The route connects Kyoto and Edo in historic Japan. It’s a long, but fulfilling journey in which you will visit a variety of locations including
+              inns, restaurants, landmarks, hot springs, and more. There are no dice or cards telling you where to go, you are free to travel the road any-way you would like! All actions award points, so sit back, relax, and enjoy the ride!</th>
+            <th>2-5</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Tsurp of the Seas</th>
+            <th class="game-description">Raise the anchors and man the sails, it’s time to cast out to sea. Choose a ship and draw a tile to set out on your journey. Be mindful of the other player’s boats, as their courses can compromise your own. If
+              you get stuck in a loop or sail off the board you are eliminated! The last player left sailing is the winner. And watch out for the sea dragons.</th>
+            <th>2-8</th>
+            <th><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Wrath of Dragons</th>
+            <th class="game-description">Are you the biggest, baddest dragon in all the land? Compete with the other drag-ons over six centuries to see who can wreak the most havoc on the peoples of the world. Spend your turns stealing gold, eating
+              farm animals, burning fields of crops, and capturing nobles to earn victory points. The player with the most points after six turns is the winner!</th>
+            <th>2-6</th>
+            <th><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""><img src="images/staple-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+        </table>
+      </div>
+
+      <div class="twoplayer-games">
+        <div class="header">
+          <h1>Two Player Games</h1>
+        </div>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th class="game-description">Desc.</th>
+            <th>Players</th>
+            <th>Difficulty</th>
+            <th class="game-mechanics">Mech.</th>
+          </tr>
+          <tr>
+            <th>Backgammon</th>
+            <th class="game-description">One of the original board games: get ready to guide your checkers home! You and your opponent arrange your checkers and roll dice to move them around the board. When a checker makes it all the way around, it
+              may be placed in the home pile. Complete this task first to be crowned the winner! </th>
+            <th>2</th>
+            <th><img src="images/twoplayer-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Battleship</th>
+            <th class="game-description">Your fleet finds itself in dangerous waters...enemy ships are near, and they’re search-ing for you. Hide your vessels and take turns firing salvos at enemy ships until only one fleet remains. Will you return
+              home victorious, or will your ships be lost at sea?</th>
+            <th>2</th>
+            <th><img src="images/twoplayer-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Checkers</th>
+            <th class="game-description">If you just can’t be bothered to learn how the different pieces in chess move, this might be the game for you!</th>
+            <th>2</th>
+            <th><img src="images/twoplayer-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Chess</th>
+            <th class="game-description">The original battle of wits: face off in a game of pure strategy devoid of variance or hidden information.</th>
+            <th>2</th>
+            <th><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Connect Four</th>
+            <th class="game-description">When Tic Tac Toe just isn’t enough: it’s time to go for four in a row! You and your op-ponent choose a color and then take turns placing checkers into a vertical board suspended above the table. Your goal is
+              to connect four of your checkers in a row across, up and down, or diagonal. Achieve this first and you win!</th>
+            <th>2</th>
+            <th><img src="images/twoplayer-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Fight for Olympus</th>
+            <th class="game-description">Battle for control of the fabled Mount Olympus by pitting soldiers, titans, and demi-gods against your opponent. On your turn, play one or more cards by discarding other cards equal to their cost(s). If you’re
+              opposite an enemy unit, you attack them! Otherwise, you earn a bonus - an extra card, a resource that can be used to pay for cards you play, or a victory point. Win by swinging the victory point pendulum to seven, or by having all six
+              board slots filled at the start of your turn.</th>
+            <th>2</th>
+            <th><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Mancala</th>
+            <th class="game-description">It’s Mancala.</th>
+            <th>2</th>
+            <th><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Morels</th>
+            <th class="game-description">Ah fungus, it’s time for a foraging faceoff. Head out into the forest with a friend and try to earn the most points by collecting and cooking up the most delicious mush-rooms. Exchange foraging sticks for
+              access to rare mushrooms or try collecting butter or apple cider to cook with your mushrooms to increase their value. You can even grab extra frying pans to increase your throughput. The highest score wins after all the cards have been
+              foraged through!</th>
+            <th>2</th>
+            <th><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Netrunner</th>
+            <th class="game-description">Go head to head in a futuristic tech-battle card game. One player takes on the role of a corporation and the other plays as a hacker referred to as runners. The goals and gameplay are highly varied for the
+              corporations and the runners. Additionally, there are distinct corporations and runners within the game ensuring that different matchups will always feel fresh. Will you fight to quash the opposition and expand your corporate clout or
+              stick it to the man as a runner?</th>
+            <th>2</th>
+            <th><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Patchwork</th>
+            <th class="game-description">Pair off for a good old fashioned quilt off! You and your opponent will take turns add-ing pieces of cloth to your quilts which are represented by grid boards. Cloth pieces can be placed anywhere they will fit
+              on your quilt and are purchased using buttons. Each cloth piece also requires a certain amount of time to be sewn into the quilt, and time is tracked on a third board where each player moves their pawn according to the time spent on
+              their quilt each turn. When both players reach the end of their time allotment, the quilts are scored and it’s winner take all!</th>
+            <th>2</th>
+            <th><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>Stratego</th>
+            <th class="game-description">Capture the flag, but with an army (and bombs)! At the start of the game, secretly place your units, bombs, and flag on your side of the battlefield. Players take turns advancing units and attacking enemy
+              pieces; watch out though, or you might acci-dentally attack a bomb, or your opponent’s mighty “general”! Find and attack your opponent’s flag to win the game.</th>
+            <th>2</th>
+            <th><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+          <tr>
+            <th>The Fox in the Forest</th>
+            <th class="game-description">A two-player trick taking game set in a fairytale forest! There are three suits of cards ranging in value from 1-11. Each round you will play hands in which the player going second must play a card that shares
+              a suit with the card played by the leading player. The highest value typically wins and that player takes the trick. Some cards have special abilities that will impact the outcome of hands. Points are awarded based on the number of
+              tricks taken, but taking the most does not always award the most points, as the forest reveres humility. You win when you reach 21 points before the other player!</th>
+            <th>2</th>
+            <th><img src="images/twoplayer-complexity.png" alt=""><img src="images/twoplayer-complexity.png" alt=""></th>
+            <th class="game-mechanics"></th>
+          </tr>
+        </table>
+      </div>
     </div>
-    <table>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Players</th>
-        <th>Difficulty</th>
-        <th>Mechanics</th>
-      </tr>
-      <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-      </tr>
-    </table>
+    <!-- Game Menu -->
   </div>
-  <!-- Game Menu -->
-</div>
   <!-- Footer -->
   <footer class="container footer">
     <div class="footer-logo footer-element">
@@ -242,6 +1326,8 @@
   </footer>
   <!-- Footer -->
   </div>
+
+  <script src="scripts.js"></script>
 </body>
 
 </html>
