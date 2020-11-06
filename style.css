@@ -484,7 +484,6 @@ form input, form select {
 .complexity-key {
   display: flex;
   justify-content: space-between;
-  padding: 0 10%;
 }
 
 .arrow {
@@ -492,8 +491,13 @@ form input, form select {
   line-height: 20px;
 }
 
-.complexity-graphics img {
+.complexity-graphics-container {
   width: 80%;
+  margin: 0 auto;
+}
+
+.complexity-graphics-container img{
+  width: 100%;
 }
 
 .complexity-text {
@@ -623,8 +627,12 @@ tr:last-child {
   padding: 10px 15%;
 }
 
-.complexity-graphics img {
+.complexity-graphics-container {
   width: 60%;
+}
+
+.complexity-graphics img {
+  width: 100%;
 }
 
 .game-badges-container {
@@ -841,13 +849,17 @@ form input, form select {
   padding-left: 12.5%;
 }
 
+.complexity-graphics-container {
+  width: 45%;
+}
+
 .complexity-text {
   padding: 10px 25%;
   line-height: 30px;
 }
 
 .complexity-graphics img {
-  width: 45%;
+  width: 100%;
 }
 
 .game-badge {
