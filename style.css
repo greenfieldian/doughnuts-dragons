@@ -625,6 +625,10 @@ tr:last-child {
   max-width: 60%;
 }
 
+.category h1 {
+  font-size: 54px;
+}
+
 .wwa-text {
   padding: 3.0rem 4rem;
   line-height: 25px;
@@ -709,8 +713,12 @@ tr:last-child {
 }
 
 .category img {
-  min-width: 350px;
+  min-width: 300px;
   min-height: 350px;
+}
+
+.category h1 {
+  font-size: 72px;
 }
 
 .game-menu-category {
