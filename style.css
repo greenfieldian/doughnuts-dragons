@@ -347,6 +347,63 @@ form input, form select {
 }
 /* Homepage */
 
+/* About */
+.about-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.about-main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-img-wrapper {
+  flex-basis: 100%;
+  margin-bottom: 3rem;
+}
+.about-img-wrapper img{
+  width: 100%;
+  height: 300px;
+}
+.about-text-wrapper {
+  line-height: 1.5rem;
+}
+.about-text-wrapper h1 {
+  margin-bottom: 1rem;
+  color: #8CC63F;
+}
+@media only screen and (min-width: 768px) {
+  .about-img-wrapper {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-text-wrapper {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 2rem;
+  }
+  .about-text-wrapper h1 {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .about-img-wrapper {
+    max-width: 46rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-img-wrapper img {
+    height: 400px;
+  }
+  .about-text-wrapper {
+    max-width: 46rem;
+    line-height: 2.5rem;
+  }
+}
+/* About */
+
 /* Menu */
 .menu-listing {
   display: flex;
