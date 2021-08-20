@@ -528,7 +528,6 @@ form input, form select {
 
 .games-container th {
   font-weight: 400;
-  padding: 3% 5%;
   line-height: 30px;
 }
 
@@ -662,6 +661,9 @@ form input, form select {
 
 tr:last-child {
   border: none;
+}
+.table-header-row th{
+  font-weight: 600;
 }
 /* Games */
 
@@ -956,12 +958,11 @@ form input, form select {
 
 .games-container .game-description, .games-container .game-mechanics {
   display: block;
-  min-width: 50%;
-  padding: 3% 5%
 }
 
 .game-description {
-
+  font-size: 14px;
+  width: 90%;
 }
 /* Games */
 }
