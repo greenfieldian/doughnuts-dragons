@@ -504,6 +504,13 @@ form input, form select {
 .reservation-container input, .reservation-container select {
   width: 70%;
 }
+.reservation-container .input-submit {
+  margin-left: auto;
+  margin-right: auto;
+}
+.reservation-container input[type="submit"] {
+  width: 100% !important;
+}
 /* Reservations */
 
 /* Games */
