@@ -514,6 +514,9 @@ form input, form select {
 /* Reservations */
 
 /* Games */
+.game-name {
+  font-weight: 600;
+}
 .game-badge-container {
   display: none;
 }
@@ -663,7 +666,8 @@ tr:last-child {
   border: none;
 }
 .table-header-row th{
-  font-weight: 600;
+  font-weight: 700;
+  text-align: center;
 }
 /* Games */
 
@@ -916,6 +920,9 @@ form input, form select {
 /* Reservations */
 
 /* Games */
+.games-container tr {
+  padding-top: 10px;
+}
 .games-container h3 {
   font-size: 36px;
   padding-bottom: 2.5%;
@@ -962,7 +969,12 @@ form input, form select {
 
 .game-description {
   font-size: 14px;
-  width: 90%;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.game-menu tr {
+  padding-top: 10px !important;
 }
 /* Games */
 }
